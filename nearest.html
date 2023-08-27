@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meaning of Life</title>
+    <style>
+        body {
+            cursor: none;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/000/450/521/original/cursor-vector-icon.jpg');
+            background-repeat: repeat;
+            background-size: 20px;
+        }
+        .cursor {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/000/450/521/original/cursor-vector-icon.jpg');
+            background-size: cover;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="cursor"></div>
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', e => {
+            cursor.style.top = e.pageY + 'px';
+            cursor.style.left = e.pageX + 'px';
+            cursor.style.transform = `rotate(${e.pageX}deg)`;
+            cursor.style.transform = `rotate(${e.pageY}deg)`;
+        });
+    </script>
+</body>
+</html>
