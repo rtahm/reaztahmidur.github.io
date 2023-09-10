@@ -107,7 +107,7 @@ footer {
     }
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Helvetica';
     src: url('Helvetica-regular.woff') format('woff');
     font-weight: normal;
@@ -119,4 +119,4 @@ footer {
     src: url('Helvetica-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-}
+} */
