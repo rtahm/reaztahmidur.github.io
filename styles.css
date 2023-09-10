@@ -3,6 +3,7 @@ body, h1, h2, h3, p, ul, li {
     margin: 50;
     padding: 50;
     align-content: center;
+    font-family: 'Graphik', sans-serif;
 }
 
 /* Set a background color and text color for the entire page */
@@ -109,14 +110,14 @@ footer {
 
 @font-face {
     font-family: 'Graphik';
-    src: url('https://cdn.discordapp.com/attachments/767953231849717763/1150576578317791292/Graphik-Regular.woff') format('woff');
+    src: url('Graphik-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: url('https://cdn.discordapp.com/attachments/767953231849717763/1150577189574672414/Graphik-Bold.woff') format('woff');
+    src: url("Graphik-Bold.woff") format('woff');
     font-weight: bold;
     font-style: normal;
 }
