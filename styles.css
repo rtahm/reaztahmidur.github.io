@@ -9,7 +9,7 @@ body, h1, h2, h3, p, ul, li {
 body {
     background-color: #ffffff;
     color: #333;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
     align-content: center;
 }
 
@@ -18,18 +18,18 @@ header {
     background-color: #222;
     color: #fff;
     padding: 10px 0;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
 
 nav ul {
     list-style-type: none;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
     align-content: center;
 }
 
@@ -37,38 +37,38 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
 
 /* Style the hero section */
 #hero {
     text-align: center;
     padding: 100px 0;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
 
 #hero h1 {
     font-size: 36px;
     margin-bottom: 10px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
 
 #hero p {
     font-size: 18px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
 
 /* Style the other sections */
 section {
     padding: 40px 0;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
     align-content: center;
 }
 
 section h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
     align-content: center;
 }
 
@@ -107,16 +107,16 @@ footer {
     }
 }
 
-/* @font-face {
-    font-family: 'Helvetica';
-    src: url('Helvetica-regular.woff') format('woff');
+@font-face {
+    font-family: 'Graphik';
+    src: url('https://cdn.discordapp.com/attachments/767953231849717763/1150576578317791292/Graphik-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Helvetica';
-    src: url('Helvetica-bold.woff') format('woff');
+    font-family: 'Graphik';
+    src: url('https://cdn.discordapp.com/attachments/767953231849717763/1150577189574672414/Graphik-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-} */
+}
