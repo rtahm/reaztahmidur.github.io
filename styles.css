@@ -84,7 +84,7 @@ section h2 {
 
 /* Style the footer */
 footer {
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
     background-color: #222;
     color: #fff;
