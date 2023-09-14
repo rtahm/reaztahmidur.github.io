@@ -91,6 +91,13 @@ footer {
     padding: 10px 0;
     font-family: 'Graphik', sans-serif;
 }
+a {
+  color: inherit;
+}
+
+a.visited{
+  color:inherit;
+}
 
 /* Add responsiveness for smaller screens */
 @media (max-width: 768px) {
