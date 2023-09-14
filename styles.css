@@ -22,12 +22,12 @@ header {
     font-family: 'Graphik', sans-serif;
 }
 
-nav ul {
+nav ul, footer {
     list-style-type: none;
     font-family: 'Graphik', sans-serif;
 }
 
-nav ul li {
+nav ul li, footer {
     display: inline;
     margin-right: 20px;
     font-family: 'Graphik', sans-serif;
