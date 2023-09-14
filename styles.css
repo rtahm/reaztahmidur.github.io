@@ -84,12 +84,12 @@ section h2 {
 
 /* Style the footer */
 footer {
-    text-decoration: none;
+    text-decoration: underline;
     text-align: center;
     background-color: #222;
     color: #fff;
     padding: 10px 0;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Graphik', sans-serif;
 }
 
 /* Add responsiveness for smaller screens */
