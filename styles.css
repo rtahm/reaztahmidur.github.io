@@ -14,7 +14,7 @@ ul, li {
 /* Set a background color and text color for the entire page */
 body {
     background-color: #ffffff;
-    color: #333;
+    color: #000;
     font-family: 'Graphik', sans-serif;
     align-content: center;
 }
