@@ -21,10 +21,10 @@ body {
 
 /* Style the header and navigation */
 header {
-    background-color: #222;
+    background-color: #00000;
     color: #fff;
     padding: 10px 0;
-    font-family: 'Graphik', sans-serif;
+    font-family: 'ArticulatCF', sans-serif;
 }
 
 nav ul {
