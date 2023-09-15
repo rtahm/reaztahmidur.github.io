@@ -1,11 +1,16 @@
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
+body, h1, h2, h3, p {
     margin: 50;
     padding: 50;
     align-content: center;
     font-family: 'Graphik', sans-serif;
 }
-
+ul, li {
+    margin: 50;
+    padding: 50;
+    align-content: center;
+  font-family: 'ArticulatCF', sans-serif;
+}
 /* Set a background color and text color for the entire page */
 body {
     background-color: #ffffff;
@@ -125,7 +130,7 @@ a.visited{
 
 @font-face {
     font-family: 'Graphik';
-    src: url("Graphik-Bold.woff") format('woff');
+    src: url("ArticulatCF-DemiBold.otf") format('opentype');
     font-weight: bold;
     font-style: normal;
 }
