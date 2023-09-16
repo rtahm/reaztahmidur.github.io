@@ -11,7 +11,7 @@
     <header id="top">
         <nav>
             <ul>
-                <li>Jump to: </li>
+                <!-- <li>Jump to: </li> -->
                 <li><a href="#about">About Me</a></li>
                 <li><a href="/dviz.html">Data Visualizations</a></li>
                 <li><a href="/uxd.html">UX Designs</a></li>
@@ -20,6 +20,23 @@
         </nav>
     </header>
 
+    <section id="hero">
+        <h3 id="bigid">I am </br> <span id="rotatingText"></span></h3>
+        <script>
+            var identity = ['Reaz Tahmidur R.', 'a Developer', 'a Philosopher', 'a Designer', 'an Engineer', 'a thinker'];
+            var counter = 0;
+            setInterval(updateText, 6000);
+
+            function updateText() {
+                var rotatingText = document.getElementById('rotatingText');
+                rotatingText.innerHTML = identity[counter];
+                counter = (counter+1) % identity.length; 
+            }
+
+            updateText();
+        </script>
+    </section>
+<!-- 
     <section id="hero">
         <h1>Reaz Tahmidur Rahman</h1>
         <p>Engineer, Designer, Philosopher</p>
@@ -55,12 +72,12 @@
                 <p>Really proud of this position. Although title might be too fancy</p>
                 <p>I probably say Tableau Developer is more fitting for what I did</p>
         </div>
-    </section>
+    </section> -->
 
     <section id="contact" align="center">
         <h2>Contact Me</h2>
         <p>Email: reaztahmidur@gmail.com</p>
-        <p>Phone: as needed</p>
+        <p><a href="https://www.linkedin.com/in/tahmidur" target="_blank">LinkedIn</a></p>
     </section>
 
     <footer>
