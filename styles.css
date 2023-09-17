@@ -18,7 +18,7 @@ body {
     font-family: 'Graphik', sans-serif;
     align-content: center;
     opacity:0;
-    transition: opacity 1s ease-in;
+    transition: opacity 1s ease-out;
 }
 
 body.loaded{
