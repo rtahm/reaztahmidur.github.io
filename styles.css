@@ -14,13 +14,13 @@ ul, li {
 /* Set a background color and text color for the entire page */
 body {
     background-color: #ffffff;
-    color: #000;
+    color: #2C2C2C;
     font-family: 'Graphik', sans-serif;
     align-content: center;
 }
 /* Style the header and navigation */
 header {
-    background-color: #000;
+    background-color: #2C2C2C;
     color: #fff;
     padding: 10px 0;
     font-family: 'ArticulatCF', sans-serif;
