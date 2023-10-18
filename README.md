@@ -1,2 +1,1 @@
-Telling myself, I will organize all the files and clean up the js so I don't dry when I'm done with the whole thing.
-... I don't think I'll ever be done ...
+Spaghetti
